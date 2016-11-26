@@ -1,0 +1,13 @@
+<a href="#/">Back to search</a>
+<hr>
+Results for {{movies}}
+<hr>
+<!--Sort by: <a href="#movies/ascending">Ascending</a> | <a href="#movies/descending">Descending</a>
+<hr>-->
+<div ng-repeat="movieRating in movieOutput.results">
+	<div class="row">
+		<div class="col-md-12">
+			<movie-results movie-rating="movieRating"></movie-results>
+		</div>
+	</div>
+</div> 
